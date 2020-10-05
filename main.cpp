@@ -5,30 +5,28 @@
 using namespace std;
 
 int main() {
-    int numero;
     string cadena;
 
     cin>>cadena;
 
     if (cadena == "char"){
-        numero=CHAR_BIT;
+        cout<<endl<<sizeof(char)<<endl;
     }
     if (cadena == "int"){
-        numero=__SIZEOF_INT__;
+        cout<<endl<<sizeof(int)<<endl;
     }
     if (cadena == "short"){
-        numero=__SIZEOF_SHORT__;
+        cout<<endl<<sizeof(short)<<endl;
     }
     if (cadena == "float"){
-        numero=__SIZEOF_FLOAT__;
+        cout<<endl<<sizeof(float)<<endl;
     }
     if (cadena == "double"){
-        numero=__SIZEOF_DOUBLE__;
+        cout<<endl<<sizeof(double)<<endl;
     }
     if (cadena == "long"){
-        numero=__SIZEOF_LONG__;
+        cout<<endl<<sizeof(long)<<endl;
     }
 
-    cout<<numero;
     return 0;
 }
